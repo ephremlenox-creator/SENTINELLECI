@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SentinelleCI - Plateforme blockchain de signalement citoyen des problèmes d'infrastructure publique en Côte d'Ivoire">
+    <meta name="keywords" content="civic tech, blockchain, signalement, infrastructure, Côte d'Ivoire, gouvernance">
+    <title>SentinelleCI - Chaque problème signalé. Chaque commune responsable.</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles externes -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+
+</head>
+<body>
+    <!-- Barre de progression -->
+    <div class="progress-bar" id="progressBar"></div>
+    
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 20px;">
+            <a href="#hero" class="logo"> SentinelleCI</a>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#contexte">Contexte</a></li>
+                <li><a href="#problemes">Problèmes</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#blockchain">Blockchain</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cta" class="btn btn-cta">Signaler</a></li>
+            </ul>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+    
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Des millions d'Ivoiriens subissent des infrastructures défaillantes. En silence.</h1>
+                <p>SentinelleCI donne aux citoyens un canal officiel, transparent et inviolable pour signaler les problèmes et tenir les communes redevables.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#solution" class="btn btn-primary">Découvrir la solution →</a>
+                    <a href="#problemes" class="btn btn-secondary">Lire le rapport terrain</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stats Banner -->
+        <div class="stats-banner">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>&lt; 5 %</h3>
+                        <p>communes avec un système de signalement citoyen</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>78 %</h3>
+                        <p>citoyens sans canal officiel pour signaler</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>+ 30 %</h3>
+                        <p>surcoût véhicule dû aux routes dégradées</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>0</h3>
+                        <p>signalement supprimable sur SentinelleCI</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CONTEXTE SECTION -->
+    <section id="contexte">
+        <div class="container">
+            <h2>La Côte d'Ivoire entre croissance et fractures</h2>
+            
+            <div class="contexte-container">
+                <div class="contexte-column">
+                    <h3>Les succès</h3>
+                    <ul>
+                        <li>6 à 8 % de croissance annuelle depuis 2012</li>
+                        <li>Taux d'électrification &gt; 95 %</li>
+                        <li>Investissements massifs dans les infrastructures</li>
+                        <li>Capitale économique de la région WAEMU</li>
+                    </ul>
+                </div>
+                
+                <div class="contexte-column">
+                    <h3>La réalité</h3>
+                    <ul>
+                        <li>Des quartiers populaires en décrochage</li>
+                        <li>Urbanisation de 200 000 à 300 000 nouveaux arrivants/an à Abidjan</li>
+                        <li>Réseau routier dont seulement 20 % est en bon état</li>
+                        <li>Fossé creusant entre centres urbains et zones rurales</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="contexte-quote">
+                Derrière le récit de succès économique, des millions de citoyens vivent des infrastructures défaillantes au quotidien, sans aucun recours institutionnel.
+                <strong>— Rapport d'enquête terrain SentinelleCI, Avril 2025</strong>
+            </div>
+        </div>
+    </section>
+    
+    <!-- PROBLÈMES SECTION -->
+    <section id="problemes">
+        <div class="container">
+            <h2>6 problèmes documentés sur le terrain</h2>
+            <p>Enquête terrain : Six cas documentés par l'équipe E Warriors dans les quartiers d'Abidjan et les régions de l'intérieur.</p>
+            
+            <div class="problemes-grid">
+                <!-- Carte 1 -->
+                <div class="problem-card fade-in-up">
+                    <div class="problem-icon"> </div>
+                    <span class="problem-status"> NON RÉSOLU</span>
+                    <h3>Routes dégradées</h3>
+                    <p class="problem-location"> Yopougon, Abobo, Koumassi</p>
+                    <p class="problem-description">Nids-de-poule de 30 à 50 cm de profondeur, absence de caniveaux, inondations récurrentes à chaque saison des pluies. Plus de 30 % du réseau routier urbain secondaire d'Abidjan nécessiterait une réhabilitation urgente.</p>
+                    <p class="problem-testimony">"Avec les pluies, la route de mon quartier devient un marécage. J'ai cassé deux motos en trois mois. Personne ne vient réparer."</p>
+                    <p class="problem-impact"><strong>Impact :</strong> Surcoût de transport, isolement des quartiers, accidents multipliés</p>
+                </div>
+                
+                <!-- Carte 2 -->
+                <div class="problem-card fade-in-up">
+                    <div class="problem-icon"> </div>
+                    <span class="problem-status"> NON RÉSOLU</span>
+                    <h3>Coupures d'électricité récurrentes</h3>
+                    <p class="problem-location"> Abobo, Yopougon, Adjamé, Bouaké, Daloa, Gagnoa</p>
+                    <p class="problem-description">Coupures de 4 à 12h plusieurs fois par semaine. La croissance de la demande (10 à 14 % par an) dépasse la capacité du réseau. Pertes techniques estimées à plus de 20 % sur le réseau de distribution.</p>
+                    <p class="problem-testimony">"Le courant coupe presque chaque soir. Ma congélation a grillé deux fois cette année. On vit dans l'incertitude permanente."</p>
+                    <p class="problem-impact"><strong>Impact :</strong> Destruction d'équipements, pertes alimentaires, chute de productivité des PME</p>
+                </div>
+                
+                <!-- Carte 3 -->
+                <div class="problem-card fade-in-up">
+                    <div class="problem-icon"> </div>
+                    <span class="problem-status"> NON RÉSOLU</span>
+                    <h3>Accès insuffisant à l'eau potable</h3>
+                    <p class="problem-location"> Abobo-Est, Songon, Hambol, Gontougo</p>
+                    <p class="problem-description">Des populations s'approvisionnent à des prix 4 à 5 fois supérieurs auprès de revendeurs ambulants ou de puits non contrôlés. Moins de 50 % d'accès à l'eau gérée de manière sécurisée en milieu rural (OMS/UNICEF).</p>
+                    <p class="problem-testimony">"On achète l'eau à des vendeurs avec des bidons. C'est cher et on ne sait pas si c'est propre. Il y a un tuyau SODECI à 500 mètres mais il n'arrive pas jusqu'ici."</p>
+                    <p class="problem-impact"><strong>Impact :</strong> Maladies diarrhéiques, surcoût des ménages, inégalités d'accès aggravées</p>
+                </div>
+                
+                <!-- Carte 4 -->
+                <div class="problem-card fade-in-up">
+                    <div class="problem-icon"> </div>
+                    <span class="problem-status"> NON RÉSOLU</span>
+                    <h3>Déchets non collectés</h3>
+                    <p class="problem-location"> Adjamé, Treichville, Koumassi, Yopougon</p>
+                    <p class="problem-description">Abidjan produit entre 3 000 et 4 000 tonnes de déchets/jour. Moins de 60 % sont collectés. La lagune Ébrié reçoit une part significative des déchets non traités.</p>
+                    <p class="problem-testimony">"Les ordures s'accumulent depuis des semaines devant le marché. Les enfants jouent à côté. L'odeur est insupportable et les mouches envahissent nos maisons."</p>
+                    <p class="problem-impact"><strong>Impact :</strong> Paludisme, typhoïde, contamination des nappes et de la lagune Ébrié</p>
+                </div>
+                
+                <!-- Carte 5 -->
+                <div class="problem-card fade-in-up">
+                    <div class="problem-icon"> </div>
+                    <span class="problem-status"> NON RÉSOLU</span>
+                    <h3>Lampadaires publics hors service</h3>
+                    <p class="problem-location"> Yopougon-Selmer, Abobo, Marcory, Port-Bouët</p>
+                    <p class="problem-description">Moins de 60 % du parc de lampadaires est fonctionnel dans les communes populaires. Pannes non résolues depuis plusieurs mois, voire années. Vol de câbles en cuivre aggrave la situation.</p>
+                    <p class="problem-testimony">"La nuit, notre rue est complètement dans le noir. Il y a eu deux agressions le mois dernier. On a peur de sortir après 20h."</p>
+                    <p class="problem-impact"><strong>Impact :</strong> Agressions et vols nocturnes, accidents de la route, restriction de la mobilité des femmes</p>
+                </div>
+                
+                <!-- Carte 6 -->
+                <div class="problem-card fade-in-up">
+                    <div class="problem-icon"> </div>
+                    <span class="problem-status"> NON RÉSOLU</span>
+                    <h3>Inégalités urbain/rural</h3>
+                    <p class="problem-location"> Hambol, Haut-Sassandra, Gontougo, régions du Nord</p>
+                    <p class="problem-description">Plus de 60 % des investissements publics en infrastructures sont concentrés dans le Grand Abidjan (20 % de la population). Routes impraticables en saison des pluies, pénuries dans les centres de santé ruraux.</p>
+                    <p class="problem-testimony">"À Abidjan, il y a l'eau, la lumière, les routes — même si c'est parfois difficile. Ici dans notre village, on n'a rien. Les jeunes partent tous."</p>
+                    <p class="problem-impact"><strong>Impact :</strong> Exode rural massif, mortalité maternelle et infantile plus élevée, défiance envers l'État</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- PROBLÈME CENTRAL SECTION -->
+    <section id="central-issue">
+        <div class="container">
+            <h2>Le problème central : L'invisibilité institutionnelle</h2>
+            
+            <div class="issues-grid">
+                <div class="issue-item">
+                    <i class="fas fa-inbox"></i>
+                    <h3> Aucun canal de signalement unifié</h3>
+                    <p>Il n'existe aucune plateforme reconnue permettant à un citoyen de signaler un problème et d'obtenir un suivi institutionnel.</p>
+                </div>
+                
+                <div class="issue-item">
+                    <i class="fas fa-eye"></i>
+                    <h3>Aucun suivi transparent</h3>
+                    <p>Même quand un problème est connu, les citoyens n'ont aucun moyen de savoir si leur signalement a été pris en compte ou planifié.</p>
+                </div>
+                
+                <div class="issue-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3> Aucune donnée pour décider</h3>
+                    <p>Sans données agrégées, les décideurs allouent les budgets sur des bases parcellaires, défavorisant les quartiers les moins visibles.</p>
+                </div>
+            </div>
+            
+            <div class="central-quote">
+                Ce vide institutionnel n'est pas une fatalité — c'est une lacune de gouvernance à laquelle il existe des réponses concrètes.
+                <strong>— Rapport d'enquête terrain SentinelleCI, Avril 2025</strong>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SOLUTION SECTION -->
+    <section id="solution">
+        <div class="container">
+            <h2>La solution : Comment SentinelleCI fonctionne</h2>
+            <p style="text-align: center; color: var(--color-slate); margin-bottom: 3rem; font-size: 1.05rem;">Un canal citoyen transparent, tracé et inviolable</p>
+            
+            <div class="timeline">
+                <div class="timeline-items">
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-content">
+                            <i class="fas fa-camera"></i>
+                            <h3>Le citoyen signale</h3>
+                            <p>Depuis son téléphone : photo, type de problème, géolocalisation. En 30 secondes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-content">
+                            <i class="fas fa-link"></i>
+                            <h3>La blockchain enregistre</h3>
+                            <p>Le signalement est inscrit de façon permanente et infalsifiable. Date, auteur, localisation — rien ne peut être effacé.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-content">
+                            <i class="fas fa-building"></i>
+                            <h3>La commune reçoit et doit agir</h3>
+                            <p>L'alerte arrive au service technique compétent. Sa réponse (ou son silence) est visible de tous.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-content">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Tout le monde suit la résolution</h3>
+                            <p>Les citoyens, journalistes et bailleurs voient en temps réel le statut de chaque signalement et les délais de traitement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- BLOCKCHAIN SECTION -->
+    <section id="blockchain">
+        <div class="container">
+            <h2>Pourquoi la blockchain ?</h2>
+            <p>Un signalement sur blockchain ne peut pas disparaître</p>
+            
+            <div class="blockchain-cards">
+                <div class="blockchain-card fade-in-up">
+                    <i class="fas fa-lock"></i>
+                    <h3> Permanent et infalsifiable</h3>
+                    <p>Une fois enregistré, aucune commune ni aucune autorité ne peut modifier ou supprimer un signalement.</p>
+                </div>
+                
+                <div class="blockchain-card fade-in-up">
+                    <i class="fas fa-eye"></i>
+                    <h3>Public et vérifiable par tous</h3>
+                    <p>Chaque action — ou inaction — de la commune est visible par les citoyens, la presse et les partenaires.</p>
+                </div>
+                
+                <div class="blockchain-card fade-in-up">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Mesurable dans le temps</h3>
+                    <p>Les délais de résolution, les types de problèmes récurrents et la performance de chaque commune sont consultables par tous.</p>
+                </div>
+            </div>
+            
+            <div class="blockchain-final fade-in-up">
+                La pression publique est un puissant levier de responsabilisation. La commune qui ignore est aussi visible que celle qui agit.
+            </div>
+        </div>
+    </section>
+    
+    <!-- POUR QUI SECTION -->
+    <section id="pour-qui">
+        <div class="container">
+            <h2>Pour qui ?</h2>
+            
+            <div class="profiles-grid">
+                <div class="profile-card fade-in-up">
+                    <i class="fas fa-user"></i>
+                    <h3>Citoyens des communes ivoiriennes</h3>
+                    <p>Signalez un problème depuis votre téléphone en 30 secondes. Suivez ce que votre commune en fait.</p>
+                </div>
+                
+                <div class="profile-card fade-in-up">
+                    <i class="fas fa-building"></i>
+                    <h3> Maires et services techniques</h3>
+                    <p>Recevez les signalements, priorisez les interventions et prouvez votre engagement publiquement.</p>
+                </div>
+                
+                <div class="profile-card fade-in-up">
+                    <i class="fas fa-newspaper"></i>
+                    <h3>Journalistes et OSC</h3>
+                    <p>Accédez à des données vérifiées, permanentes et publiques sur l'état des infrastructures locales.</p>
+                </div>
+                
+                <div class="profile-card fade-in-up">
+                    <i class="fas fa-globe"></i>
+                    <h3> Bailleurs et partenaires</h3>
+                    <p>Évaluez la qualité réelle des services publics avec des données fiables et non manipulables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- IMPACT SECTION -->
+    <section id="impact">
+        <div class="container">
+            <h2>Impact attendu</h2>
+            
+            <div class="impact-counters">
+                <div class="counter fade-in-up">
+                    <div class="counter-number">-45 %</div>
+                    <div class="counter-label">Réduction des délais de résolution</div>
+                </div>
+                
+                <div class="counter fade-in-up">
+                    <div class="counter-number">+72 %</div>
+                    <div class="counter-label">Amélioration de la confiance institutionnelle</div>
+                </div>
+                
+                <div class="counter fade-in-up">
+                    <div class="counter-number">100 %</div>
+                    <div class="counter-label">Communes rendues redevables publiquement</div>
+                </div>
+                
+                <div class="counter fade-in-up">
+                    <div class="counter-number">∞</div>
+                    <div class="counter-label">Signalements traçables à vie</div>
+                </div>
+            </div>
+            
+            <p>Un système de signalement transparent presse les communes à résoudre les problèmes visibles publiquement. La qualité des services publics s'améliore et la confiance citoyenne augmente.</p>
+        </div>
+    </section>
+    
+    <!-- DÉMO INTERACTIVE SECTION -->
+    <section id="demo">
+        <div class="container">
+            <h2>Démo interactive</h2>
+            <p style="text-align: center; color: var(--color-slate); margin-bottom: 3rem; font-size: 1.05rem;">Testez le processus de signalement en 4 étapes</p>
+            
+            <div style="max-width: 700px; margin: 0 auto;">
+                <div style="background: var(--color-light-gray); border-radius: 12px; padding: 2rem; margin-bottom: 2rem;">
+                    <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1.5rem; color: var(--color-dark);">📸 Étape 1 : Prenez une photo</h3>
+                    <div style="background: var(--color-white); padding: 1.5rem; border-radius: 8px; text-align: center; margin-bottom: 1rem;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;"></div>
+                        <input type="file" id="demoPhoto" accept="image/*" style="padding: 0.5rem; border: 1px solid var(--color-emerald); border-radius: 6px; width: 100%; cursor: pointer;">
+                        <p style="font-size: 0.85rem; color: var(--color-slate); margin-top: 0.5rem;">Ou cliquez pour charger une image</p>
+                    </div>
+                    <div id="photoPreview"></div>
+                </div>
+                
+                <div style="background: var(--color-light-gray); border-radius: 12px; padding: 2rem; margin-bottom: 2rem;">
+                    <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1.5rem; color: var(--color-dark);">📍 Étape 2 : Sélectionnez le type de problème</h3>
+                    <select id="demoProblemType" style="width: 100%; padding: 0.8rem; border: 1px solid var(--color-emerald); border-radius: 6px; font-size: 1rem; cursor: pointer;">
+                        <option value="">-- Choisir un type --</option>
+                        <option value="Routes dégradées"> Routes dégradées</option>
+                        <option value="Coupures électricité"> Coupures d'électricité</option>
+                        <option value="Eau potable"> Accès à l'eau potable</option>
+                        <option value="Déchets"> Déchets non collectés</option>
+                        <option value="Lampadaires"> Lampadaires hors service</option>
+                        <option value="Autre"> Autre problème</option>
+                    </select>
+                </div>
+                
+                <div style="background: var(--color-light-gray); border-radius: 12px; padding: 2rem; margin-bottom: 2rem;">
+                    <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1.5rem; color: var(--color-dark);">📝 Étape 3 : Décrivez le problème</h3>
+                    <textarea id="demoDescription" placeholder="Décrivez ce que vous avez observé..." style="width: 100%; padding: 1rem; border: 1px solid var(--color-emerald); border-radius: 6px; font-size: 0.95rem; font-family: var(--font-body); resize: vertical; min-height: 120px;"></textarea>
+                </div>
+                
+                <div style="background: var(--color-light-gray); border-radius: 12px; padding: 2rem; margin-bottom: 2rem;">
+                    <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1.5rem; color: var(--color-dark);">🗺️ Étape 4 : Confirmez votre localisation</h3>
+                    <div style="background: var(--color-white); padding: 1.5rem; border-radius: 8px; text-align: center; margin-bottom: 1rem;">
+                        <p style="color: var(--color-slate); margin-bottom: 1rem;">Localisation approximative :</p>
+                        <input id="demoLocation" type="text" placeholder="ex: Yopougon, Abidjan" style="width: 100%; padding: 0.8rem; border: 1px solid var(--color-emerald); border-radius: 6px; font-size: 1rem;">
+                    </div>
+                </div>
+                
+                <button id="demoSubmitBtn" style="width: 100%; padding: 1rem; background: var(--color-emerald); color: white; border: none; border-radius: 50px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: var(--transition);" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                    ✅ SOUMETTRE LE SIGNALEMENT
+                </button>
+                
+                <div id="demoResult" style="display: none; background: #E8F5E9; border: 2px solid var(--color-emerald); border-radius: 12px; padding: 2rem; margin-top: 2rem; text-align: center;">
+                    <h3 style="color: var(--color-emerald); margin-bottom: 1rem; font-family: var(--font-display); font-weight: 700;">✅ Signalement enregistré avec succès !</h3>
+                    <div id="demoConfirmation" style="background: white; padding: 1.5rem; border-radius: 8px; text-align: left; font-size: 0.95rem; color: var(--color-dark); line-height: 1.8;">
+                    </div>
+                    <p style="color: var(--color-slate); margin-top: 1.5rem; font-style: italic;">Votre signalement est maintenant inscrit de façon permanente et inviolable sur la blockchain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- RAPPORT COMPLET SECTION -->
+    <section id="rapport" style="background: var(--color-white);">
+        <div class="container">
+            <h2>Rapport complet d'enquête terrain</h2>
+            <p style="text-align: center; color: var(--color-slate); margin-bottom: 2rem; font-size: 1.05rem;">SentinelleCI — Enquête de diagnostic | Avril 2025</p>
+            
+            <div style="max-width: 900px; margin: 0 auto; background: var(--color-light-gray); padding: 2rem; border-radius: 12px; border-left: 4px solid var(--color-emerald);">
+                <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1rem; color: var(--color-dark);">📊 Résumé exécutif</h3>
+                <p style="color: var(--color-slate); line-height: 1.8; margin-bottom: 1.5rem;">
+                    Cette enquête a été menée par l'équipe E Warriors entre février et avril 2025 auprès de plus de <strong>500 ménages et 150 commerçants</strong> dans 8 communes du Grand Abidjan et 6 régions de l'intérieur. L'objectif était de documenter les problèmes d'infrastructure publique affectant les citoyens au quotidien et d'évaluer l'absence de canaux de signalement officiels.
+                </p>
+                
+                <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1rem; color: var(--color-dark); margin-top: 2rem;">🎯 Méthodologie</h3>
+                <ul style="color: var(--color-slate); line-height: 1.8; margin-left: 1.5rem;">
+                    <li><strong>Entretiens qualitatifs :</strong> 150 focus groups et interviews approfondies dans les communes</li>
+                    <li><strong>Enquête quantitative :</strong> 500+ ménages couvrant Abidjan, Bouaké, Daloa, Gagnoa et zones rurales</li>
+                    <li><strong>Partenaires de données :</strong> BCEAO, Banque Mondiale, OMS/UNICEF, ministères sectoriels</li>
+                    <li><strong>Observation directe :</strong> Visite systématique de 40+ sites problématiques documentés par photo/vidéo</li>
+                </ul>
+                
+                <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1rem; color: var(--color-dark); margin-top: 2rem;">📈 Principaux constats</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
+                    <div style="background: white; padding: 1rem; border-radius: 8px;">
+                        <p style="color: var(--color-orange); font-weight: 700; font-size: 1.3rem;">78 %</p>
+                        <p style="color: var(--color-slate); font-size: 0.9rem;">des citoyens déclarent n'avoir aucun canal officiel pour signaler</p>
+                    </div>
+                    <div style="background: white; padding: 1rem; border-radius: 8px;">
+                        <p style="color: var(--color-orange); font-weight: 700; font-size: 1.3rem;">< 5 %</p>
+                        <p style="color: var(--color-slate); font-size: 0.9rem;">des communes disposent d'un système de signalement citoyen</p>
+                    </div>
+                    <div style="background: white; padding: 1rem; border-radius: 8px;">
+                        <p style="color: var(--color-orange); font-weight: 700; font-size: 1.3rem;">20 %</p>
+                        <p style="color: var(--color-slate); font-size: 0.9rem;">du réseau routier urbain d'Abidjan est en bon état</p>
+                    </div>
+                    <div style="background: white; padding: 1rem; border-radius: 8px;">
+                        <p style="color: var(--color-orange); font-weight: 700; font-size: 1.3rem;">+ 30 %</p>
+                        <p style="color: var(--color-slate); font-size: 0.9rem;">surcoût de transport dû aux routes dégradées</p>
+                    </div>
+                </div>
+                
+                <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1rem; color: var(--color-dark); margin-top: 2rem;">🔍 Problèmes identifiés</h3>
+                <p style="color: var(--color-slate); line-height: 1.8;">
+                    Les enquêteurs ont documenté 6 catégories majeures de problèmes affectant le quotidien des Ivoiriens : <strong>routes dégradées, coupures d'électricité récurrentes, accès insuffisant à l'eau potable, déchets non collectés, lampadaires hors service et inégalités urbain/rural</strong>. Pour chaque catégorie, des photos, des récits de citoyens et des chiffres de source officielle ont été compilés.
+                </p>
+                
+                <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1rem; color: var(--color-dark); margin-top: 2rem;">💡 Recommandations</h3>
+                <ol style="color: var(--color-slate); line-height: 1.8; margin-left: 1.5rem;">
+                    <li><strong>Créer un canal de signalement citoyen centralisé et transparent</strong> — Accessible par téléphone/SMS et web, avec numérotation publique des signalements</li>
+                    <li><strong>Implémenter la traçabilité blockchain</strong> — Pour rendre impossible la suppression ou la modification de signalements</li>
+                    <li><strong>Responsabiliser les communes par la transparence</strong> — Tableaux de bord publics montrant délais de résolution par commune et par type de problème</li>
+                    <li><strong>Impliquer la presse et la société civile</strong> — Accès public aux données de signalement pour investigations journalistiques</li>
+                    <li><strong>Coordonner avec les bailleurs</strong> — Utiliser les données SentinelleCI pour évaluer la performance des services publics avant financement</li>
+                </ol>
+                
+                <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1rem; color: var(--color-dark); margin-top: 2rem;">📅 Calendrier d'implémentation proposé</h3>
+                <div style="background: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1rem;">
+                    <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #ddd;">
+                        <p style="font-weight: 600; color: var(--color-emerald);">T1 2025 : Phase pilote</p>
+                        <p style="color: var(--color-slate); font-size: 0.9rem;">Implémentation dans 3 communes (Yopougon, Abobo, Koumassi)</p>
+                    </div>
+                    <div style="margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #ddd;">
+                        <p style="font-weight: 600; color: var(--color-emerald);">T2-T3 2025 : Déploiement régional</p>
+                        <p style="color: var(--color-slate); font-size: 0.9rem;">Extension à toutes les communes d'Abidjan + 5 villes secondaires</p>
+                    </div>
+                    <div>
+                        <p style="font-weight: 600; color: var(--color-emerald);">T4 2025 - T1 2026 : Couverture nationale</p>
+                        <p style="color: var(--color-slate); font-size: 0.9rem;">Déploiement dans toutes les communes de Côte d'Ivoire</p>
+                    </div>
+                </div>
+                
+                <h3 style="font-family: var(--font-display); font-weight: 700; margin-bottom: 1rem; color: var(--color-dark); margin-top: 2rem;">👥 Équipe de recherche</h3>
+                <p style="color: var(--color-slate); line-height: 1.8;">
+                    <strong>E Warriors</strong> (Équipe de chefs de projet, data analysts, et community organizers) — <strong>Darollo Technologies Corporation</strong> (Partenaire technologique) — <strong>Superviseurs académiques :</strong> Institut d'Études Politiques d'Abidjan, Centre de Recherche Urbaine de l'Université Félix Houphouët-Boigny
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA FINALE SECTION -->
+    <section id="cta">
+        <div class="container">
+            <h2>Ensemble, rendons nos communes transparentes.</h2>
+            <p class="cta-subtitle">SentinelleCI — Projet CI-02 | MIABE Hackathon 2026<br>Équipe E Warriors — Darollo Technologies Corporation</p>
+            
+            <div class="cta-buttons">
+                <a href="#demo" class="btn btn-white">Découvrir la démo →</a>
+                <a href="#rapport" class="btn btn-outline-white">Lire le rapport complet</a>
+            </div>
+           
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SentinelleCI</h4>
+                    <p style="font-size: 0.9rem;">Plateforme blockchain de signalement citoyen des problèmes d'infrastructure publique en Côte d'Ivoire.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#problemes">Problèmes</a></li>
+                        <li><a href="#solution">Solution</a></li>
+                        <li><a href="#blockchain">Blockchain</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>À propos</h4>
+                    <ul>
+                        <li><a href="#">Rapport d'enquête terrain</a></li>
+                        <li><a href="https://www.miabehackathon.com">MIABE Hackathon 2026</a></li>
+                        <li><a href="#">Équipe E Warriors</a></li>
+                        <li><a href="#">Darollo Technologies</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SentinelleCI. Tous droits réservés. | Projet présenté au MIABE Hackathon 2026 — www.miabehackathon.com | Rapport d'enquête terrain — Équipe E Warriors — Avril 2025</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts externes -->
+    <script src="../js/animation.js"></script>
+</body>
+</html>
