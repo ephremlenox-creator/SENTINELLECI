@@ -361,7 +361,12 @@ const initBlockchainAnimations = () => {
         // Floating animation avec délai différent
         const delay = index * 0.4;
         const duration = 3 + (index * 0.5);
-        card.style.animation = `float-up ${duration}s ease-in-out infinite`;
+        
+        // Utiliser animationName au lieu de animation pour préserver les animations CSS
+        card.style.animationName = 'float-up';
+        card.style.animationDuration = duration + 's';
+        card.style.animationTimingFunction = 'ease-in-out';
+        card.style.animationIterationCount = 'infinite';
         card.style.animationDelay = delay + 's';
         
         // Wiggle sur les icônes
