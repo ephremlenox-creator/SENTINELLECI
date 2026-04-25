@@ -64,7 +64,7 @@ body {
     top: 0;
     left: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--color-emerald), var(--color-orange));
+    background: var(--color-orange);
     width: 0;
     z-index: 1000;
 }
@@ -80,7 +80,7 @@ header {
     z-index: 999;
     background: rgba(255, 255, 255, 0.97);
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0, 168, 107, 0.1);
+    border-bottom: 1px solid rgba(255, 107, 53, 0.1);
     transition: var(--transition);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
@@ -130,7 +130,7 @@ nav {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--color-emerald);
+    background: var(--color-orange);
     transition: var(--transition);
 }
 
@@ -139,13 +139,13 @@ nav {
 }
 
 .btn-cta {
-    background: var(--color-emerald);
+    background: var(--color-orange);
     color: var(--color-white);
     padding: 0.75rem 1.5rem;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
-    border: 2px solid var(--color-emerald);
+    border: 2px solid var(--color-orange);
     transition: var(--transition);
     cursor: pointer;
     font-size: 0.95rem;
@@ -153,7 +153,7 @@ nav {
 
 .btn-cta:hover {
     background: transparent;
-    color: var(--color-emerald);
+    color: var(--color-orange);
 }
 
 .hamburger {
@@ -281,23 +281,23 @@ section {
 }
 
 .btn-primary {
-    background: var(--color-emerald);
+    background: var(--color-orange);
     color: var(--color-white);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0, 168, 107, 0.3);
+    box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
 }
 
 .btn-secondary {
     background: transparent;
-    color: var(--color-emerald);
-    border: 2px solid var(--color-emerald);
+    color: var(--color-orange);
+    border: 2px solid var(--color-orange);
 }
 
 .btn-secondary:hover {
-    background: var(--color-emerald);
+    background: var(--color-orange);
     color: var(--color-white);
 }
 
@@ -305,7 +305,7 @@ section {
    STATS BANNER
    =========================== */
 .stats-banner {
-    background: linear-gradient(135deg, #006B45 0%, var(--color-emerald) 100%);
+    background: linear-gradient(135deg, #CC5500 0%, var(--color-orange) 100%);
     color: var(--color-white);
     padding: 3rem 0;
     margin: 2rem 0;
@@ -393,7 +393,7 @@ section {
     font-size: 1.3rem;
     font-family: var(--font-display);
     font-weight: 700;
-    color: var(--color-emerald);
+    color: var(--color-orange);
     margin-bottom: 1.5rem;
 }
 
@@ -413,7 +413,7 @@ section {
     content: '✓';
     position: absolute;
     left: 0;
-    color: var(--color-emerald);
+    color: var(--color-orange);
     font-weight: bold;
 }
 
@@ -486,15 +486,15 @@ section {
     left: 0;
     right: 0;
     height: 4px;
-    background: var(--color-emerald);
+    background: var(--color-orange);
     transform: scaleX(0);
     transform-origin: left;
     transition: var(--transition-slow);
 }
 
 .problem-card:hover {
-    border-color: var(--color-emerald);
-    box-shadow: 0 10px 30px rgba(0, 168, 107, 0.15);
+    border-color: var(--color-orange);
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.15);
     transform: translateY(-5px);
 }
 
@@ -592,7 +592,7 @@ section {
 
 .issue-item i {
     font-size: 2.5rem;
-    color: var(--color-emerald);
+    color: var(--color-orange);
     margin-bottom: 1rem;
 }
 
@@ -643,7 +643,7 @@ section {
     top: 0;
     bottom: 0;
     width: 3px;
-    background: linear-gradient(180deg, var(--color-emerald), var(--color-orange));
+    background: linear-gradient(180deg, #CC5500, var(--color-orange));
     transform: translateX(-50%);
 }
 
@@ -664,11 +664,11 @@ section {
     top: 30px;
     width: 20px;
     height: 20px;
-    background: var(--color-emerald);
+    background: var(--color-orange);
     border: 4px solid var(--color-white);
     border-radius: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 0 0 4px var(--color-emerald);
+    box-shadow: 0 0 0 4px var(--color-orange);
 }
 
 .timeline-content {
@@ -681,7 +681,7 @@ section {
 
 .timeline-content i {
     font-size: 2rem;
-    color: var(--color-emerald);
+    color: var(--color-orange);
     margin-bottom: 1rem;
 }
 
@@ -701,7 +701,7 @@ section {
    SECTION BLOCKCHAIN
    =========================== */
 #blockchain {
-    background: linear-gradient(135deg, var(--color-emerald) 0%, #009A55 100%);
+    background: linear-gradient(135deg, var(--color-orange) 0%, #FFB347 100%);
     color: var(--color-white);
 }
 
@@ -790,14 +790,14 @@ section {
 }
 
 .profile-card:hover {
-    border-color: var(--color-emerald);
-    box-shadow: 0 10px 30px rgba(0, 168, 107, 0.1);
+    border-color: var(--color-orange);
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
     transform: translateY(-5px);
 }
 
 .profile-card i {
     font-size: 2.5rem;
-    color: var(--color-emerald);
+    color: var(--color-orange);
     margin-bottom: 1rem;
 }
 
@@ -832,7 +832,7 @@ section {
     padding: 2rem;
     border-radius: 12px;
     text-align: center;
-    border-left: 4px solid var(--color-emerald);
+    border-left: 4px solid var(--color-orange);
     transition: var(--transition);
 }
 
@@ -845,7 +845,7 @@ section {
     font-size: 2.5rem;
     font-family: var(--font-display);
     font-weight: 800;
-    color: var(--color-emerald);
+    color: var(--color-orange);
     margin-bottom: 0.5rem;
 }
 
@@ -869,7 +869,7 @@ section {
    SECTION CTA FINALE
    =========================== */
 #cta {
-    background: linear-gradient(135deg, var(--color-emerald) 0%, var(--color-orange) 100%);
+    background: linear-gradient(135deg, var(--color-orange) 0%, #FFB347 100%);
     color: var(--color-white);
     text-align: center;
 }
@@ -901,7 +901,7 @@ section {
 
 .btn-white {
     background: var(--color-white);
-    color: var(--color-emerald);
+    color: var(--color-orange);
     border: 2px solid var(--color-white);
 }
 
@@ -918,7 +918,7 @@ section {
 
 .btn-outline-white:hover {
     background: var(--color-white);
-    color: var(--color-emerald);
+    color: var(--color-orange);
 }
 
 .sdg-badges {
@@ -959,7 +959,7 @@ footer {
     font-family: var(--font-display);
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--color-emerald);
+    color: var(--color-orange);
 }
 
 .footer-section ul {
@@ -978,7 +978,7 @@ footer {
 }
 
 .footer-section a:hover {
-    color: var(--color-emerald);
+    color: var(--color-orange);
 }
 
 .footer-bottom {
@@ -1014,7 +1014,7 @@ footer {
 
 @keyframes blink {
     0%, 49% {
-        border-right-color: var(--color-emerald);
+        border-right-color: var(--color-orange);
     }
     50%, 100% {
         border-right-color: transparent;
@@ -1023,7 +1023,7 @@ footer {
 
 .typewriter {
     overflow: hidden;
-    border-right: 3px solid var(--color-emerald);
+    border-right: 3px solid var(--color-orange);
     white-space: nowrap;
     animation: typewriter 3s steps(40, end), blink 0.75s step-end infinite;
 }
@@ -1032,11 +1032,11 @@ footer {
 @keyframes pulse {
     0%, 100% {
         transform: scale(1);
-        box-shadow: 0 0 0 0 rgba(0, 168, 107, 0.7);
+        box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.7);
     }
     50% {
         transform: scale(1.05);
-        box-shadow: 0 0 0 10px rgba(0, 168, 107, 0);
+        box-shadow: 0 0 0 10px rgba(255, 107, 53, 0);
     }
 }
 
@@ -1237,12 +1237,12 @@ footer {
 /* Flash couleur */
 @keyframes color-flash {
     0% {
-        text-shadow: 0 0 20px rgba(0, 168, 107, 1);
-        color: var(--color-emerald);
+        text-shadow: 0 0 20px rgba(255, 107, 53, 1);
+        color: var(--color-orange);
     }
     100% {
-        text-shadow: 0 0 0px rgba(0, 168, 107, 0);
-        color: var(--color-emerald);
+        text-shadow: 0 0 0px rgba(255, 107, 53, 0);
+        color: var(--color-orange);
     }
 }
 
@@ -1288,10 +1288,10 @@ footer {
 /* Curseur personnalisé trail */
 @keyframes cursor-glow {
     from {
-        box-shadow: 0 0 5px var(--color-emerald);
+        box-shadow: 0 0 5px var(--color-orange);
     }
     to {
-        box-shadow: 0 0 15px var(--color-emerald);
+        box-shadow: 0 0 15px var(--color-orange);
     }
 }
 
@@ -1299,11 +1299,11 @@ footer {
     position: fixed;
     width: 20px;
     height: 20px;
-    border: 2px solid var(--color-emerald);
+    border: 2px solid var(--color-orange);
     border-radius: 50%;
     pointer-events: none;
     z-index: 10000;
-    background: rgba(0, 168, 107, 0.1);
+    background: rgba(255, 107, 53, 0.1);
     animation: cursor-glow 1s ease-in-out infinite alternate;
 }
 
@@ -1317,7 +1317,7 @@ footer {
 
 .cursor-trail {
     position: fixed;
-    border: 2px solid var(--color-emerald);
+    border: 2px solid var(--color-orange);
     border-radius: 50%;
     pointer-events: none;
     animation: cursor-trail 0.6s ease-out forwards;
